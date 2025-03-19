@@ -1,0 +1,49 @@
+Plugins Utilizados en la Página Web
+
+Resumen de los Plugins
+Plugin	Función
+SweetAlert2	Muestra mensajes emergentes más atractivos.
+AOS	Agrega animaciones al desplazarse por la página.
+Leaflet.js	Muestra un mapa interactivo con una ubicación exacta.
+Font Awesome	Agrega iconos personalizables en botones y redes sociales.
+Carrusel Personalizado	Permite desplazarse entre imágenes de productos.
+
+SweetAlert2 (Ventanas Emergentes)
+¿Qué hace?
+Este plugin se utiliza para mostrar alertas personalizadas en lugar de los mensajes predeterminados de alert(). Se usa para interactuar con el usuario de una forma más visual y atractiva.
+
+Implementación:
+
+Se incluyó la librería desde un CDN:
+
+AOS (Animaciones al Desplazar la Página)
+¿Qué hace?
+Este plugin agrega animaciones elegantes a los elementos cuando aparecen en pantalla mientras el usuario se desplaza.
+
+ Implementación:
+
+Se incluyó la librería desde un CDN:
+
+Leaflet.js (Mapa Interactivo)
+¿Qué hace?
+Permite mostrar un mapa interactivo con la ubicación exacta de un lugar. En este caso, se muestra Parque Central.
+
+Implementación:
+
+Se incluyó la librería desde un CDN:
+
+Font Awesome (Iconos)
+¿Qué hace?
+Agrega iconos personalizados para mejorar la estética del sitio, como flechas en el carrusel y redes sociales en el footer.
+
+Implementación:
+
+Se incluyó la librería desde un CDN:
+
+Carrusel Personalizado (Slider de Imágenes)
+¿Qué hace?
+Permite desplazar imágenes con botones de navegación, mostrando especificaciones de los productos.
+
+Implementación:
+
+Se estructura el carrusel en el HTML:
