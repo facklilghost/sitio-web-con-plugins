@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Mi Sitio Web</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1 data-aos="fade-up">Nuestros Productos</h1>
+        <a href="index.html" class="btn-nav">Volver al Inicio</a>
+    </header>
+
+    <!-- Sección de Productos -->
+    <section id="productos" class="productos">
+        <h2 data-aos="fade-up">Nuestros Productos Destacados</h2>
+        <div class="productos-container">
+            <div class="producto" data-aos="fade-right">
+                <img src="img/monitor.jpg" alt="Monitor Full HD">
+                <h3>Monitor Full HD</h3>
+                <p>Pantalla de 24" con tecnología IPS para colores vivos.</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+            <div class="producto" data-aos="fade-up">
+                <img src="img/teclado.jpg" alt="Teclado Mecánico RGB">
+                <h3>Teclado Mecánico RGB</h3>
+                <p>Diseño ergonómico con retroiluminación RGB personalizable.</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+            <div class="producto" data-aos="fade-left">
+                <img src="img/mouse.jpg" alt="Mouse Gamer">
+                <h3>Mouse Gamer</h3>
+                <p>Sensor de alta precisión y diseño cómodo para largas sesiones.</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Sneider | Todos los derechos reservados</p>
+        <div class="redes-sociales">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
